@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ackon's Cyber Lab</title>
+    <style>
+        body {
+            background: #0b0f19;
+            color: #00ff99;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .container {
+            max-width: 650px;
+            margin: auto;
+            padding: 30px;
+            border: 1px solid #00ff99;
+            border-radius: 15px;
+        }
+        h1 { color: #00ff99; }
+        p { color: white; line-height: 1.7; }
+        a { color: #00ff99; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME TO ACKON'S CYBER LAB</h1>
+        <p>Learning Cybersecurity from Beginner to Professional.</p>
+        <p>Ethical Hacking | Linux | Networking | Python</p>
+        <h2>My Mission</h2>
+        <p>To develop practical cybersecurity skills and become an ethical hacker.</p>
+        <p>Practice responsibly. Hack ethically.</p>
+    </div>
+</body>
+</html>
