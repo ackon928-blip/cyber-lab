@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ackon's Cyber Lab</title>
+<style>
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: #080d18;
+    color: #e5e7eb;
+    font-family: Arial, sans-serif;
+}
+header {
+    background: #101a2b;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 2px solid #00ff99;
+}
+header h1 { color: #00ff99; }
+nav { padding: 15px; text-align: center; }
+nav a {
+    color: #00ff99;
+    margin: 10px;
+    text-decoration: none;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+.hero h2 { color: #00ff99; font-size: 30px; }
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+}
+.card {
+    background: #111c30;
+    border: 1px solid #00ff99;
+    border-radius: 12px;
+    padding: 22px;
+}
+.card h3 { color: #00ff99; }
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #888;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>ACKON'S CYBER LAB</h1>
+<p>Learn • Practice • Secure</p>
+</header>
+<nav>
+<a href="#about">About</a>
+<a href="#learning">Learning</a>
+<a href="#practice">Practice</a>
+</nav>
+<section class="hero">
+<h2>WELCOME TO MY CYBERSECURITY WORLD</h2>
+<p>My journey from beginner to professional ethical hacker.</p>
+</section>
+<div class="container" id="about">
+<h2>About My Mission</h2>
+<p>I am learning cybersecurity, Linux, networking and ethical hacking through practical exercises and responsible security testing.</p>
+</div>
+<div class="container" id="learning">
+<h2>My Learning Areas</h2>
+<div class="grid">
+<div class="card">
+<h3>🐧 Linux</h3>
+<p>Learn Kali Linux and terminal commands.</p>
+</div>
+<div class="card">
+<h3>🌐 Networking</h3>
+<p>Understand IP addresses, ports and protocols.</p>
+</div>
+<div class="card">
+<h3>🐍 Python</h3>
+<p>Learn programming for cybersecurity.</p>
+</div>
+<div class="card">
+<h3>🔎 Nmap</h3>
+<p>Discover hosts and services in authorized labs.</p>
+</div>
+</div>
+</div>
+<div class="container" id="practice">
+<h2>My Practical Projects</h2>
+<div class="card">
+<h3>Project 01: My First Linux Lab</h3>
+<p>Setting up Kali Linux using WSL2.</p>
+<h3>Project 02: Network Scanning</h3>
+<p>Learning Nmap on localhost and authorized practice targets.</p>
+<h3>Project 03: Personal Website</h3>
+<p>Building and publishing my first cybersecurity website.</p>
+</div>
+</div>
+<footer>
+<p>ACKON'S CYBER LAB | Learn Ethical Hacking Responsibly</p>
+</footer>
+</body>
+</html>
